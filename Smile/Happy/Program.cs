@@ -12,7 +12,7 @@ namespace Happy
         static void Main(string[] args)
         {
             int x;
-            Console.WriteLine("крысы\nбыка\nтигра\nзаяц\nдракон\nзмея\nлошадь\nовца\nобезьяна\nкурицы\nсобаки\nсвиньи\n");
+            Console.WriteLine("nкрысы\nбыка\nтигра\nзаяц\nдракон\nзмея\nлошадь\nовца\nобезьяна\nкурицы\nсобаки\nсвиньи\n");
             Console.Write("Введите номер года: ");
             x = Convert.ToInt32(Console.ReadLine());
             string y;
