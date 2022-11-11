@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,44 +15,45 @@ namespace Happy
             Console.WriteLine("крысы\nбыка\nтигра\nзаяц\nдракон\nзмея\nлошадь\nовца\nобезьяна\nкурицы\nсобаки\nсвиньи\n");
             Console.Write("Введите номер года: ");
             x = Convert.ToInt32(Console.ReadLine());
-
+            string y;
+            y = "год ";
             switch (x % 12)
             {
                 case 4:
-                    Console.WriteLine("год крысы");
+                    Console.WriteLine(y+"крысы");
                     break;
                 case 5:
-                    Console.WriteLine("год коровы");
+                    Console.WriteLine(y+"быка");
                     break;
                 case 6:
-                    Console.WriteLine("год тигра");
+                    Console.WriteLine(y + "тигра");
                     break;
                 case 7:
-                    Console.WriteLine("год зайца");
+                    Console.WriteLine(y + "зайца");
                     break;
                 case 8:
-                    Console.WriteLine("год дракона");
+                    Console.WriteLine(y + "дракона");
                     break;
                 case 9:
-                    Console.WriteLine("год змеи");
+                    Console.WriteLine(y + "год змеи");
                     break;
                 case 10:
-                    Console.WriteLine("год лошади");
+                    Console.WriteLine(y + "год лошади");
                     break;
                 case 11:
-                    Console.WriteLine("год козы");
+                    Console.WriteLine(y + "год козы");
                     break;
                 case 0:
-                    Console.WriteLine("год обезьяны");
+                    Console.WriteLine(y + "год обезьяны");
                     break;
                 case 1:
-                    Console.WriteLine("год петуха");
+                    Console.WriteLine(y + "год петуха");
                     break;
                 case 2:
-                    Console.WriteLine("год собаки");
+                    Console.WriteLine(y + "год собаки");
                     break;
                 case 3:
-                    Console.WriteLine("год свиньи");
+                    Console.WriteLine(y + "год свиньи");
                     break;
             }
             Console.ReadKey();
