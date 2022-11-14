@@ -11,6 +11,7 @@ namespace Happy
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello");
             int x;
             Console.WriteLine("nкрысы\nбыка\nтигра\nзаяц\nдракон\nзмея\nлошадь\nовца\nобезьяна\nкурицы\nсобаки\nсвиньи\n");
             Console.Write("Введите номер года: ");
